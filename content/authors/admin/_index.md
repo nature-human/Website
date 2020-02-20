@@ -79,6 +79,7 @@ My research interests lie broadly in theoritical computer science, including dif
 
 <font color="red">I’m in the job market now.</font>
 Here is my <a class=nav-link href=/files/cv.pdf>CV</a>.
+[cv](Website/blob/master/files/cv.pdf)
 
 </font>
 
