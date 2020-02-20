@@ -332,6 +332,7 @@
     }
   }
 
+
   /* ---------------------------------------------------------------------------
   * Change Theme Mode (0: Day, 1: Night, 2: Auto).
   * --------------------------------------------------------------------------- */
@@ -342,7 +343,7 @@
   }
 
   function getThemeMode() {
-    return parseInt(localStorage.getItem('dark_mode') || 1);
+    return parseInt(localStorage.getItem('dark_mode') || 0);
   }
 
   function changeThemeModeClick() {
@@ -361,16 +362,8 @@
         break;
       case 1:
         localStorage.setItem('dark_mode', '0');
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          // The visitor prefers dark themes and switching to the dark variation is allowed by admin.
-          isDarkTheme = 1;
-        } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-          // The visitor prefers light themes and switching to the dark variation is allowed by admin.
-          isDarkTheme = 0;
-        } else {
-          isDarkTheme = isSiteThemeDark;  // Use the site's default theme variation based on `light` in the theme file.
-        }
-        console.info('User changed theme variation to Auto.');
+        isDarkTheme = 0;
+        console.info('User changed theme variation to Light.');
         $themeChanger.removeClass('fa-moon').addClass('fa-sun');
         break;
       default:
