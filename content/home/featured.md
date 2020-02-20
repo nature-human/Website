@@ -8,6 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
+
 title = "Publications"
 subtitle = ""
 
@@ -40,7 +41,7 @@ subtitle = ""
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "140px"]
+ padding = ["20px", "140px", "20px", "140px"]
 
 [advanced]
  # Custom CSS. 
@@ -54,7 +55,7 @@ subtitle = ""
 
 <ul>
   <br>
-  <li>
+  <li> 
       <font color="#0000FF"><a href="https://arxiv.org/pdf/1911.07048.pdf">Fair Division of Mixed Divisible and Indivisible Goods</a></font><br>
       joint work with Xiaohui Bei, Zihao Li, Shengxin Liu and Xinhang Lu<br>
       <b>AAAI Conference on Artificial Intelligence (AAAI), 2020</b><br>
