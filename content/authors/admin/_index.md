@@ -69,15 +69,12 @@ role: jyliu\@cs.hku.hk
 #- Researchers
 #- Visitors
 ---
-<br />
+<br>
 <font size=4>
-
 I’m a final year Ph.D. student in Department of Computer Science at [The University of Hong Kong](https://www.hku.hk/), where I'm extremely fortunate to be supervised by [Dr. Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/) and [Prof. Siu Ming Yiu](https://www.cs.hku.hk/people/academic-staff/smyiu). Before that, I obtained my bachelor degree from School of Computer Science and Technology at [Huazhong University of Science and Technology](http://www.hust.edu.cn/). 
-During my Ph.D. program,
-I have wonderful experences visiting in [Nanyang Technological University](https://www.ntu.edu.sg/Pages/home.aspx) hosted by [Dr. Xiaohui Bei](https://www.ntu.edu.sg/home/xhbei/), and [Georgia Insititute of Technology](https://www.gatech.edu/) hosted by [Dr. Rachel Cummings](https://pwp.gatech.edu/rachel-cummings/).
+During my Ph.D. program, I have wonderful experences visiting in [Nanyang Technological University](https://www.ntu.edu.sg/Pages/home.aspx) hosted by [Dr. Xiaohui Bei](https://www.ntu.edu.sg/home/xhbei/), and [Georgia Insititute of Technology](https://www.gatech.edu/) hosted by [Dr. Rachel Cummings](https://pwp.gatech.edu/rachel-cummings/).
 
-My research interests lie broadly in theoritical computer science, including data privacy, machine learning, algorithmic game theory, and fairness. 
-I was a recipient of the **Outstanding Student Paper Award of AAAI 2020**. 
+My research interests lie broadly in theoritical computer science, including differential privacy, online learning, algorithmic game theory, and fairness. I was a recipient of the **Outstanding Student Paper Award of AAAI 2020**. 
 
 <font color="red">I’m in the job market now.</font>
 Here is my [CV](https://github.com/nature-human/academic-kickstart/blob/master/content/authors/admin/avatar.jpg).
