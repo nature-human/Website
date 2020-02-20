@@ -377,7 +377,7 @@
         localStorage.setItem('dark_mode', '0');
         isDarkTheme = 0;
         console.info('User changed theme variation to Light.');
-        $themeChanger.removeClass('fa-moon').addClass('fa-sun');
+        $themeChanger.removeClass('fa-sun').addClass('fa-moon');
         break;
     }
     renderThemeVariation(isDarkTheme);
