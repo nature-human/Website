@@ -78,7 +78,7 @@ During my Ph.D. program, I have wonderful experences visiting in [Nanyang Techno
 My research interests lie broadly in theoritical computer science, including differential privacy, online learning, algorithmic game theory, and fairness. I was a recipient of the **Outstanding Student Paper Award of AAAI 2020**. 
 
 <font color="red">I’m in the job market now.</font>
-Here is my [CV](/files/cv.pdf).
+Here is my [CV](/static/files/cv.pdf).
 
 </font>
 
