@@ -70,9 +70,6 @@
     
 
     
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.9.0/instantsearch.min.css" integrity="sha256-ZtmLe16p4jS4/2wPwwH6NzJt460SJzgLmhKrYo5yn7g=" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.10.2/instantsearch-theme-algolia.min.css" integrity="sha256-uL8LUd3zkI/lXvc/Hv/oOu8ld6RJcOZiUY/8c+I+3/o=" crossorigin="anonymous">
-    
 
     
     
@@ -434,10 +431,6 @@
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
       
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
-      
 
       
       <li class="nav-item">
@@ -511,57 +504,16 @@
     
 
     
+
     
     
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks"
-        };
-    </script>
+
     
 
     
     
 
     
-    
-    <script id="search-hit-algolia-template" type="text/html">
-      <div class="search-hit">
-        <div class="search-hit-content">
-          <div class="search-hit-name">
-            <a href="{{relpermalink}}">{{{_highlightResult.title.value}}}</a>
-          </div>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{{_highlightResult.summary.value}}}</p>
-        </div>
-      </div>
-    </script>
-    
-
-    
-    
-
-    
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.10.2/instantsearch.min.js" integrity="sha256-gFCtPk/sonctyfwYOgjrPoWApQ0rqB6ezBBZ7p32yGc=" crossorigin="anonymous"></script>
-    
-    <script>
-      const algoliaConfig = {
-        appId: "F4WQ1YX093",
-        apiKey: "41cb45d8ec5f3a624504f40975507a93",
-        indexName: "index.jason",
-        poweredBy:  false 
-      };
-    </script>
     
 
     
@@ -576,12 +528,10 @@
     
     
     
-      
     
     
     
-    
-    <script src="/js/academic.min.dccc35378325b27bbf5fdb220e25575b.js"></script>
+    <script src="/js/academic.min.3c3c5e8a3e8a3dafac2dc1ff9428a22f.js"></script>
 
     
 
