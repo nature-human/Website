@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Academic</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;&lt;br /&gt;
+&lt;font size=4&gt;&lt;/p&gt;
+&lt;p&gt;I’m a final year Ph.D. student in Department of Computer Science at 
+&lt;a href=&#34;https://www.hku.hk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The University of Hong Kong&lt;/a&gt;, where I&amp;rsquo;m extremely fortunate to be supervised by 
+&lt;a href=&#34;https://i.cs.hku.hk/~zhiyi/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Zhiyi Huang&lt;/a&gt; and 
+&lt;a href=&#34;https://www.cs.hku.hk/people/academic-staff/smyiu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Siu Ming Yiu&lt;/a&gt;. Before that, I obtained my bachelor degree from School of Computer Science and Technology at 
+&lt;a href=&#34;http://www.hust.edu.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Huazhong University of Science and Technology&lt;/a&gt;.
+During my Ph.D. program,
+I have wonderful experences visiting in 
+&lt;a href=&#34;https://www.ntu.edu.sg/Pages/home.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nanyang Technological University&lt;/a&gt; hosted by 
+&lt;a href=&#34;https://www.ntu.edu.sg/home/xhbei/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Xiaohui Bei&lt;/a&gt;, and 
+&lt;a href=&#34;https://www.gatech.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Georgia Insititute of Technology&lt;/a&gt; hosted by 
+&lt;a href=&#34;https://pwp.gatech.edu/rachel-cummings/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Rachel Cummings&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My research interests lie broadly in theoritical computer science, including data privacy, machine learning, algorithmic game theory, and fairness.
+I was a recipient of the &lt;strong&gt;Outstanding Student Paper Award of AAAI 2020&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;font color=&#34;red&#34;&gt;I’m in the job market now.&lt;/font&gt;
+Here is my 
+&lt;a href=&#34;https://github.com/nature-human/academic-kickstart/blob/master/content/authors/admin/avatar.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CV&lt;/a&gt;.&lt;/p&gt;
+&lt;/font&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
