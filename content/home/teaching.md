@@ -42,7 +42,6 @@ subtitle = ""
   # Customize the section spacing. Order is top, right, bottom, left.
   padding = ["20px", "10%", "0", "10%"]
   
-  #####CenteredMode=true
 
 [advanced]
  # Custom CSS. 
@@ -65,6 +64,7 @@ subtitle = ""
     <li><p style = "margin:5px"> COMP8601 Advanced of Theoretical Computer Science, Spring 2016</p></li>
   </ul>
 </font>
+
 
 
 

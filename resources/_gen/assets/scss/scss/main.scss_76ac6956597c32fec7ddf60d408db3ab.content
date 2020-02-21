@@ -9123,3 +9123,19 @@ div.mermaid {
   width: 100%;
   text-align: center;
   margin-bottom: 1rem; }
+
+details > summary {
+  list-style: none; }
+
+details > summary::before {
+  display: none; }
+
+details > summary::-webkit-details-marker {
+  display: none; }
+
+summary:after {
+  content: "";
+  float: left; }
+
+details[open] summary:after {
+  content: ""; }

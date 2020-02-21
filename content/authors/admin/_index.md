@@ -12,6 +12,9 @@ name: Jinyan Liu
 # Role/position
 role: jyliu\@cs.hku.hk
 
+
+  
+
 # Organizations/Affiliations
 #organizations:
 #- name: Stanford University
@@ -68,6 +71,9 @@ role: jyliu\@cs.hku.hk
 #user_groups:
 #- Researchers
 #- Visitors
+
+
+
 ---
 <br>
 <font size=4>
