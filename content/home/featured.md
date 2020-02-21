@@ -70,11 +70,11 @@ subtitle = ""
       </font></p>
     </div>
   </details></li>
-  
-  <br>
 
-  <li><details>
-    <summary><font color="#0000FF"> Privacy-preserving Crowd-guided AI Decision-making in Ethical Dilemmas </font>
+  <br>
+  
+  <li ><details >
+    <summary ><font color="#0000FF"> Privacy-preserving Crowd-guided AI Decision-making in Ethical Dilemmas </font>
       <br>
       joint work with Teng Wang, Jun Zhao, Han Yu, Xinyu Yang, Xuebing Ren and Shuyu Shi
       <br>

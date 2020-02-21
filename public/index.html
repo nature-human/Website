@@ -191,7 +191,7 @@
   
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto%7CRoboto Mono%7CPrata&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CGelasio%7CRoboto Mono%7CPrata%7CCrimson Text%7CFrank Ruhl Libre%7CLora&display=swap">
   
 
   
@@ -566,7 +566,7 @@
     
 
     <br>
-<font size=4>
+<font size=4.5>
 <p>I’m a final year Ph.D. student in Department of Computer Science at 
 <a href="https://www.hku.hk/" target="_blank" rel="noopener">The University of Hong Kong</a>, where I&rsquo;m extremely fortunate to be supervised by 
 <a href="https://i.cs.hku.hk/~zhiyi/" target="_blank" rel="noopener">Dr. Zhiyi Huang</a> and 
@@ -613,24 +613,26 @@ Here is my
   
 
   
-
-  
-  
-
-  
-  
+    
   
 
   
   
+
   
   
   
 
   
   
+  
+  
+  
 
-  <section id="featured" class="home-section wg-blank   home-section wg-about   " style="padding: 20px 10% 20px 9%;" >
+  
+  
+
+  <section id="featured" class="home-section wg-blank   home-section wg-about   " style="padding: 20px 10% 20px 9%;custom.scss" >
     <div class="container">
       
 
@@ -640,67 +642,67 @@ Here is my
     <div class="col-lg-12">
       <h1>Publications</h1>
       
-      <head>
-<style>
-table, th, td {
-  border: 1px solid skyblue;
-  bgcolor:lightblue;
-}
-</style>
-</head>
-<font size=4>
+      <font size=4>
 <ul>
   <br>  
   <li><details>
-    <summary><font color="#0000FF"> Fair Division of Mixed Divisible and Indivisible Goods </font></summary>
-      <div style="BORDER: 1px; border-style:solid; background-color:#DEEFF5; WIDTH: 80%; " align=left>
-        <p style = "margin:10px"><b>Abstract:</b><br>
-          We study the problem of fair division when the resources contain both divisible and indivisible goods. Classic fairness notions such as envy-freeness (EF) and envy-freeness up to one good (EF1) cannot be directly applied to the mixed goods setting. In this work, we propose a new fairness notion <I>Envy-freeness for mixed goods</I> (EFM), which is a direct generalization of both EF and EF1 to the mixed goods setting. We prove that an EFM allocation always exists for any number of agents. We also propose efficient algorithms to compute an EFM allocation for two agents and for $n$ agents with piecewise linear valuations over the divisible goods. Finally, we relax the envy-free requirement, instead asking for $\epsilon$-<I>Envy-freeness for mixed goods</I> ($\epsilon$-EFM), and present an algorithm that finds an $\epsilon$-EFM allocation in time polynomial in the number of agents, number of goods, and $\frac{1}{\epsilon}$.
-        </p>
-      </div>
-  </details></li>
-<p>joint work with Xiaohui Bei, Zihao Li, Shengxin Liu and Xinhang Lu
-<br>
-<b>AAAI Conference on Artificial Intelligence (AAAI), 2020</b>  
-<a href="https://arxiv.org/pdf/1911.07048.pdf"><font color="#0000FF">[PDF]</font></a>
-<br>
-<font color="#fa6400"><strong>Outstanding Student Paper Award</strong></font></p>
-  <li><details>
-  <summary><font color="#0000FF"> Privacy-preserving Crowd-guided AI Decision-making in Ethical Dilemmas </font></summary>
-    <div style="BORDER: 1px; border-style:solid; background-color:#DEEFF5; WIDTH: 80%; " align=left>
-      <p style = "margin:10px"><b>Abstract:</b><br>
-        With the rapid development of artificial intelligence (AI), ethical issues surrounding AI have attracted increasing attention. To investigate such ethical dilemmas, recent studies have adopted preference aggregation, such approaches can potentially violate the privacy of voters. In this paper, we report a first-of-its-kind privacy- preserving crowd-guided AI decision-making approach in ethical dilemmas. We adopt the formal and popular notion of differential privacy and propose different algorithms to achieve these privacy protection granularities. Extensive experiments based on both synthetic data and real-world data of voters’ moral decisions demonstrate that the proposed approaches achieve high accuracy of preference aggregation while protecting individual voter’s privacy.
-      </p>
+    <summary><font color="#0000FF"> Fair Division of Mixed Divisible and Indivisible Goods </font>
+      <br>
+      joint work with Xiaohui Bei, Zihao Li, Shengxin Liu and Xinhang Lu
+      <br>
+      <b>AAAI Conference on Artificial Intelligence (AAAI), 2020</b> &nbsp;   <a href="https://arxiv.org/pdf/1911.07048.pdf">[PDF]</a>
+      <br>
+      <font color="#fa6400"><strong>Outstanding Student Paper Award</strong></font>
+    </summary>
+    <br>
+    <div class="abs1" align=left>
+      <p style = "margin:10px"><font size=3.5><b>Abstract:</b><br>         
+        We study the problem of fair division when the resources contain both divisible and indivisible goods. Classic fairness notions such as envy-freeness (EF) and envy-freeness up to one good (EF1) cannot be directly applied to the mixed goods setting. In this work, we propose a new fairness notion <I>Envy-freeness for mixed goods</I> (EFM), which is a direct generalization of both EF and EF1 to the mixed goods setting. We prove that an EFM allocation always exists for any number of agents. We also propose efficient algorithms to compute an EFM allocation for two agents and for $n$ agents with piecewise linear valuations over the divisible goods. Finally, we relax the envy-free requirement, instead asking for $\epsilon$-<I>Envy-freeness for mixed goods</I> ($\epsilon$-EFM), and present an algorithm that finds an $\epsilon$-EFM allocation in time polynomial in the number of agents, number of goods, and $\frac{1}{\epsilon}$.
+      </font></p>
     </div>
-  </details></li>   
-<p>joint work with Teng Wang, Jun Zhao, Han Yu, Xinyu Yang, Xuebing Ren and Shuyu Shi
-<br>
-<b>The 28th ACM International Conference on Information and Knowledge Management (CIKM), 2019</b>  
-<a href="https://dl.acm.org/doi/abs/10.1145/3357384.3357954"><font color="#0000FF">[PDF]</font></a></p>
-  <li><details>
-    <summary><font color="#0000FF"> Learning Optimal Reserve Price against Non-myopic Bidderss </font></summary>
-      <div style="BORDER: 1px; border-style:solid; background-color:#DEEFF5; WIDTH: 80%; " align=left>
-        <p style = "margin:10px"><b>Abstract:</b><br>
-          We consider the problem of learning optimal reserve price in repeated auctions against non-myopic bidders, who may bid strategically in order to gain in future rounds even if the single-round auctions are truthful. Previous algorithms, e.g., empirical pricing, do not provide non-trivial regret rounds in this setting in general. We introduce algorithms that obtain small regret against non-myopic bidders either when the market is large, i.e., no bidder appears in a constant fraction of the rounds, or when the bidders are impatient, i.e., they discount future utility by some factor mildly bounded away from one. Our approach carefully controls what information is revealed to each bidder, and builds on techniques from differentially private online learning as well as the recent line of works on jointly differentially private algorithms.
-        </p>
-      </div>
   </details></li>
-<p>joint work with Zhiyi Huang and Xiangning Wang
-<br>
-<b>Advances in Neural Information Processing Systems(NeurIPS), 2018</b>  
-<a href="http://papers.nips.cc/paper/7474-learning-optimal-reserve-price-against-non-myopic-bidders.pdf"><font color="#0000FF"> [PDF] </font></a> </summary></p>
+  <br>
   <li><details>
-    <summary><font color="#0000FF"> Optimal Differentially Private Algorithms for k-Means Clustering </font></summary>
-      <div style="BORDER: 1px; border-style:solid; background-color:#DEEFF5; WIDTH: 80%; " align=left>
-        <p style = "margin:10px"><b>Abstract:</b><br>
-          We consider privacy-preserving k-means clustering. For the objective of minimizing the Wasserstein distance between the output and the optimal solution, we show that there is a polynomial-time (ε,δ)-differentially private algorithm which, for any sufficiently large Φ2 well-separated datasets, outputs k centers that are within Wasserstein distance Ø(Φ2) from the optimal. This result improves the previous bounds by removing the dependence on ε, number of centers k, and dimension d. Further, we prove a matching lower bound that no (ε, δ)-differentially private algorithm can guarantee Wasserstein distance less than Ømega (Φ2) and, thus, our positive result is optimal up to a constant factor. For minimizing the k-means objective when the dimension d is bounded, we propose a polynomial-time private local search algorithm that outputs an αn-additive approximation when the size of the dataset is at least ~Ø (k3/2 · d · ε-1 · poly(α-1)).
-        </p>
-      </div>
+    <summary><font color="#0000FF"> Privacy-preserving Crowd-guided AI Decision-making in Ethical Dilemmas </font>
+      <br>
+      joint work with Teng Wang, Jun Zhao, Han Yu, Xinyu Yang, Xuebing Ren and Shuyu Shi
+      <br>
+      <b>The 28th ACM International Conference on Information and Knowledge Management (CIKM), 2019</b> &nbsp;  <a href="https://dl.acm.org/doi/abs/10.1145/3357384.3357954">[PDF]</a>
+    </summary>
+    <div class="abs1" align=left>
+      <p style = "margin:10px"><font size=3.5><b>Abstract:</b><br>         
+        With the rapid development of artificial intelligence (AI), ethical issues surrounding AI have attracted increasing attention. To investigate such ethical dilemmas, recent studies have adopted preference aggregation, such approaches can potentially violate the privacy of voters. In this paper, we report a first-of-its-kind privacy- preserving crowd-guided AI decision-making approach in ethical dilemmas. We adopt the formal and popular notion of differential privacy and propose different algorithms to achieve these privacy protection granularities. Extensive experiments based on both synthetic data and real-world data of voters’ moral decisions demonstrate that the proposed approaches achieve high accuracy of preference aggregation while protecting individual voter’s privacy.
+      </font></p>
+    </div>
   </details></li>
-<p>joint work with Zhiyi Huang
-<br>
-<b>In Proceeding of the ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Databases Systems (PODS), 2018</b>  
-<a href="https://dl.acm.org/doi/abs/10.1145/3196959.3196977"><font color="#0000FF">[PDF]</font></a></p>
+  <br>
+  <li><details>
+    <summary><font color="#0000FF"> Learning Optimal Reserve Price against Non-myopic Bidderss </font>
+      <br>
+      joint work with Zhiyi Huang and Xiangning Wang 
+      <br>
+      <b>Advances in Neural Information Processing Systems(NeurIPS), 2018</b> &nbsp;   <a href="http://papers.nips.cc/paper/7474-learning-optimal-reserve-price-against-non-myopic-bidders.pdf">[PDF]</a>
+    </summary>
+    <div class="abs1" align=left>
+      <p style = "margin:10px"><font size=3.5><b>Abstract:</b><br>         
+        We consider the problem of learning optimal reserve price in repeated auctions against non-myopic bidders, who may bid strategically in order to gain in future rounds even if the single-round auctions are truthful. Previous algorithms, e.g., empirical pricing, do not provide non-trivial regret rounds in this setting in general. We introduce algorithms that obtain small regret against non-myopic bidders either when the market is large, i.e., no bidder appears in a constant fraction of the rounds, or when the bidders are impatient, i.e., they discount future utility by some factor mildly bounded away from one. Our approach carefully controls what information is revealed to each bidder, and builds on techniques from differentially private online learning as well as the recent line of works on jointly differentially private algorithms.
+      </font></p>
+    </div>
+  </details></li>
+  <br>
+  <li><details>
+    <summary><font color="#0000FF"> Optimal Differentially Private Algorithms for k-Means Clustering </font>
+      <br>
+      joint work with Zhiyi Huang
+      <br>
+      <b>In Proceeding of the ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Databases Systems (PODS), 2018</b> &nbsp;  <a href="https://dl.acm.org/doi/abs/10.1145/3196959.3196977">[PDF]</a>
+    </summary>
+    <div class="abs1" align=left>
+      <p style = "margin:10px"><font size=3.5><b>Abstract:</b><br>         
+        We consider privacy-preserving $k$-means clustering. For the objective of minimizing the Wasserstein distance between the output and the optimal solution, we show that there is a polynomial-time $(\epsilon,\delta)$-differentially private algorithm which, for any sufficiently large $\phi^2$ well-separated datasets, outputs $k$ centers that are within Wasserstein distance $O( \phi^2)$ from the optimal. This result improves the previous bounds by removing the dependence on $\epsilon$, number of centers $k$, and dimension $d$. Further, we prove a matching lower bound that no $(\epsilon, \delta)$-differentially private algorithm can guarantee Wasserstein distance less than $\Omega (\phi^2)$ and, thus, our positive result is optimal up to a constant factor. For minimizing the $k$-means objective when the dimension $d$ is bounded, we propose a polynomial-time private local search algorithm that outputs an $\alpha n$-additive approximation when the size of the dataset is at least.      
+      </font></p>
+    </div>
+  </details></li>
 </ul>
 </font>
 
@@ -758,10 +760,10 @@ table, th, td {
 <font size=4>
   <ul>
     <p style = "margin:40px"> </p>
-    <li><p > COMP3250 Design and Analysis of Algorithms, Spring 2019</p></li>
-    <li><p > COMP3352 Algorithmic Game Theory, Spring 2018</p></li>
-    <li><p > COMP9601 Theory of Computation and Algorithm Design, Fall 2016</p></li>
-    <li><p > COMP8601 Advanced of Theoretical Computer Science, Spring 2016</p></li>
+    <li><p style = "margin:5px"> COMP3250 Design and Analysis of Algorithms, Spring 2019</p></li>
+    <li><p style = "margin:5px"> COMP3352 Algorithmic Game Theory, Spring 2018</p></li>
+    <li><p style = "margin:5px"> COMP9601 Theory of Computation and Algorithm Design, Fall 2016</p></li>
+    <li><p style = "margin:5px"> COMP8601 Advanced of Theoretical Computer Science, Spring 2016</p></li>
   </ul>
 </font>
 
@@ -856,11 +858,12 @@ table, th, td {
 
   <p class="powered-by">
     
-
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
+      <div align="center">
+        <font size=3>
+          Powered by the <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>. <br>
+          <p><font size=3>This website is a joint work with Nankun Hong.</font></p>
+        </font>
+      </div>
     
     <span class="float-right" aria-hidden="true">
       <a href="#" class="back-to-top">
