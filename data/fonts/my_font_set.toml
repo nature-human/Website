@@ -2,10 +2,10 @@
 name = "Classic"
 
 # Optional Google font URL
-google_fonts = "Lato:400,700|Roboto|Roboto Mono|Prata"
+google_fonts = "Lato:400,700|Gelasio|Roboto Mono|Prata|Crimson Text|Frank Ruhl Libre|Lora"
 
 # Font families
 heading_font = "Prata"
-body_font = "Roboto"
-nav_font = "Lato"
+body_font = "Frank Ruhl Libre"
+nav_font = "Gelasio"
 mono_font = "Roboto Mono"

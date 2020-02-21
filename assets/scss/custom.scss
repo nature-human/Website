@@ -16,3 +16,32 @@ details[open] summary:after {
     content: "";
 }
 
+summary:focus{
+	outline:none;
+}
+
+// Adjust hyperlink
+a:link{
+	color:#0000FF;
+}
+
+a:visited{
+	color:#0000FF;
+}
+
+a:hover { 
+	text-decoration:underline; 
+}
+
+
+
+div.abs1{       padding:        10px;
+                    margin:         0px;
+                    width:          825px;
+                    line-height:    1.4em;
+                    background-color:#DEEFF5;
+                    border:         0px;
+                    font-size:      11pt;       }
+
+
+
