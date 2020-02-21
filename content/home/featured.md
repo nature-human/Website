@@ -65,7 +65,7 @@ subtitle = ""
     </summary>
     <br>
     <div class="abs1" align=left>
-      <p style = "margin:10px"><font size=3.5><b>Abstract:</b><br>         
+      <p style = "margin:10px"><font size=3.7><b>Abstract:</b><br>         
         We study the problem of fair division when the resources contain both divisible and indivisible goods. Classic fairness notions such as envy-freeness (EF) and envy-freeness up to one good (EF1) cannot be directly applied to the mixed goods setting. In this work, we propose a new fairness notion <I>Envy-freeness for mixed goods</I> (EFM), which is a direct generalization of both EF and EF1 to the mixed goods setting. We prove that an EFM allocation always exists for any number of agents. We also propose efficient algorithms to compute an EFM allocation for two agents and for $n$ agents with piecewise linear valuations over the divisible goods. Finally, we relax the envy-free requirement, instead asking for $\epsilon$-<I>Envy-freeness for mixed goods</I> ($\epsilon$-EFM), and present an algorithm that finds an $\epsilon$-EFM allocation in time polynomial in the number of agents, number of goods, and $\frac{1}{\epsilon}$.
       </font></p>
     </div>
@@ -81,7 +81,7 @@ subtitle = ""
       <b>The 28th ACM International Conference on Information and Knowledge Management (CIKM), 2019</b> &nbsp;  <a href="https://dl.acm.org/doi/abs/10.1145/3357384.3357954">[PDF]</a>
     </summary>
     <div class="abs1" align=left>
-      <p style = "margin:10px"><font size=3.5><b>Abstract:</b><br>         
+      <p style = "margin:10px"><font size=3.7><b>Abstract:</b><br>         
         With the rapid development of artificial intelligence (AI), ethical issues surrounding AI have attracted increasing attention. To investigate such ethical dilemmas, recent studies have adopted preference aggregation, such approaches can potentially violate the privacy of voters. In this paper, we report a first-of-its-kind privacy- preserving crowd-guided AI decision-making approach in ethical dilemmas. We adopt the formal and popular notion of differential privacy and propose different algorithms to achieve these privacy protection granularities. Extensive experiments based on both synthetic data and real-world data of voters’ moral decisions demonstrate that the proposed approaches achieve high accuracy of preference aggregation while protecting individual voter’s privacy.
       </font></p>
     </div>
@@ -97,7 +97,7 @@ subtitle = ""
       <b>Advances in Neural Information Processing Systems(NeurIPS), 2018</b> &nbsp;   <a href="http://papers.nips.cc/paper/7474-learning-optimal-reserve-price-against-non-myopic-bidders.pdf">[PDF]</a>
     </summary>
     <div class="abs1" align=left>
-      <p style = "margin:10px"><font size=3.5><b>Abstract:</b><br>         
+      <p style = "margin:10px"><font size=3.7><b>Abstract:</b><br>         
         We consider the problem of learning optimal reserve price in repeated auctions against non-myopic bidders, who may bid strategically in order to gain in future rounds even if the single-round auctions are truthful. Previous algorithms, e.g., empirical pricing, do not provide non-trivial regret rounds in this setting in general. We introduce algorithms that obtain small regret against non-myopic bidders either when the market is large, i.e., no bidder appears in a constant fraction of the rounds, or when the bidders are impatient, i.e., they discount future utility by some factor mildly bounded away from one. Our approach carefully controls what information is revealed to each bidder, and builds on techniques from differentially private online learning as well as the recent line of works on jointly differentially private algorithms.
       </font></p>
     </div>
@@ -113,7 +113,7 @@ subtitle = ""
       <b>In Proceeding of the ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Databases Systems (PODS), 2018</b> &nbsp;  <a href="https://dl.acm.org/doi/abs/10.1145/3196959.3196977">[PDF]</a>
     </summary>
     <div class="abs1" align=left>
-      <p style = "margin:10px"><font size=3.5><b>Abstract:</b><br>         
+      <p style = "margin:10px"><font size=3.7><b>Abstract:</b><br>         
         We consider privacy-preserving $k$-means clustering. For the objective of minimizing the Wasserstein distance between the output and the optimal solution, we show that there is a polynomial-time $(\epsilon,\delta)$-differentially private algorithm which, for any sufficiently large $\phi^2$ well-separated datasets, outputs $k$ centers that are within Wasserstein distance $O( \phi^2)$ from the optimal. This result improves the previous bounds by removing the dependence on $\epsilon$, number of centers $k$, and dimension $d$. Further, we prove a matching lower bound that no $(\epsilon, \delta)$-differentially private algorithm can guarantee Wasserstein distance less than $\Omega (\phi^2)$ and, thus, our positive result is optimal up to a constant factor. For minimizing the $k$-means objective when the dimension $d$ is bounded, we propose a polynomial-time private local search algorithm that outputs an $\alpha n$-additive approximation when the size of the dataset is at least.      
       </font></p>
     </div>
