@@ -9152,6 +9152,9 @@ a:visited {
 a:hover {
   text-decoration: underline; }
 
+p#power a:link {
+  color: black; }
+
 p#power a:hover {
   text-decoration: none; }
 
